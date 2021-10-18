@@ -1,0 +1,73 @@
+body {
+    color: ivory;
+    background-color: #2F6078;
+    font-family: Avenir, sans-serif;
+    font-size: 1.1em;
+}
+
+#results {
+    background-color: cadetblue;
+    font-size: 1.6em;
+    position: absolute;
+    left: 600px;
+    top: 70px;
+    padding: 26px;
+    margin: 20px;
+    /*border: solid ivory;*/
+}
+#restart {
+    background-color: cadetblue;
+    color: white;
+    font-size: 0.9em;
+    position: absolute;
+    left: 350px;
+    top: 640px;
+    border: 0;
+    box-shadow: none;
+    padding: 12px;
+}
+
+#resultButton {
+    border: solid ivory;
+    background-color: cadetblue;
+    color: ivory;
+    font-size:0.7em;
+    padding: 12px;
+}
+#count {
+    padding: 20px;
+    position: relative;
+    margin-left: 50px;
+}
+
+#gameBoard {
+    position: relative;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+#time_spent{
+    font-size: 0.7em;
+}
+/*#legend {*/
+/*    position: relative;*/
+/*    margin-top: 70px;*/
+/*}*/
+
+/*#count {*/
+
+/*    font-size:1.2em;*/
+/*
+/*}*/
+
+#instruction {
+    position: relative;
+    margin-left: 90px;
+}
+
+/*#play_again {*/
+/*    position: relative;*/
+/*    margin-left: 500px; top: -450px;*/
+/*    border-bottom-color: #2F6078;*/
+/*    font-max-size: 1.2em;*/
+/*}*/

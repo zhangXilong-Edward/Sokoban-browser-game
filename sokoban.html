@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SOKOBAN</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="sokoban.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="sokoban.css" />
+</head>
+
+<body>
+
+<div id="gameBoard">
+    <table id="board">
+    </table>
+</div>
+
+
+<div id="legend">
+    <p>____________________________________legend_____________________________________</p>
+    <span> <img src="images/wallBlack.png" alt="wall"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+    <span> <img src="images/Crate_Yellow.png" alt="box"> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <span> <img src="images/Character4.png" alt="player">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;</span>
+    <span> <img src="images/Character9.png" alt="player on goal">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</span>
+    <span> <img src="images/EndPoint_Beige.png" alt="goal">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>
+    <span> <img src="images/EndPoint_Yellow.png" alt="box on goal">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+    <br>
+    <span>&nbsp; &nbsp;&nbsp;wall&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+    <span>&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;box&nbsp; &nbsp; &nbsp;</span>
+    <span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;player&nbsp; &nbsp; &nbsp;</span>
+    <span>&nbsp; &nbsp; &nbsp;player on goal&nbsp; &nbsp; &nbsp;</span>
+    <span>&nbsp; &nbsp; &nbsp;goal&nbsp; &nbsp; &nbsp;</span>
+    <span>&nbsp; &nbsp; &nbsp;box on goal&nbsp; &nbsp; &nbsp;</span>
+</div>
+
+<div id="count">
+    <p id="stepCount" >Step Count: 0</p>
+    <p id="pushCount" >Push Count: 0</p>
+    <p id = "time" onkeydown="timer()">Time Count: 0s</p>
+    <br>
+</div>
+
+<div id="results">
+    <p id="result_message">Press the Arrow Key to Move the Player and Push the Box</p>
+    <p id="time_spent"></p>
+</div>
+
+<div id="refresh">
+    <button id="restart" type="button" onclick="refreshLevel()">Click here<br>to restart this level</button>
+
+</div>
+
+
+</body>
+</html>
